@@ -5,7 +5,7 @@ import {
   Route
 } from 'react-router-dom';
 import Home from './Home';
-
+import VideoPage from '../containers/videos/PlayVideo';
 
 export default function App() {
   return (

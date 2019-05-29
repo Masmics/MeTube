@@ -12,4 +12,3 @@ export const getVideoUrl = (state, videoId) => {
   return `https://youtube.com/embed/${videoId}`;
 };
 
-
