@@ -4,7 +4,7 @@ import VideoThumbnail from './VideoThumbnail';
 
 describe('video thumbnail component', () => {
   it('renders a thumbnail image', () => {
-    const wrapper = shallow(<VideoThumbnail id="-UoeQOC-5iw" url={'https://i.ytimg.com/an_webp/-UoeQOC-5iw/mqdefault_6s.webp?du=3000&sqp=CJTGuucF&rs=AOn4CLBj3MWOwYZBOJP2DxUZ27ygB-Kb8g'} />);
+    const wrapper = shallow(<VideoThumbnail id="-UoeQOC-5iw" url={'https://img.youtube.com/vi/-UoeQOC-5iw/0.jpg'} />);
     expect(wrapper).toMatchSnapshot();
   });
 });
