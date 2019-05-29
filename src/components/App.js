@@ -1,4 +1,5 @@
 import React from 'react';
+import VideoForm from './video/VideoForm';
 
 import {
   BrowserRouter as Router//,
@@ -12,6 +13,8 @@ export default function App() {
       <Router>
         <div>
           <h1>Hello from App</h1>
+          <h2>And hello from VideoForm</h2>
+          <VideoForm value="-UoeQOC-5iw" />
         </div>
       </Router>
 
