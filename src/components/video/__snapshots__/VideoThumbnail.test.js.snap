@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`video thumbnail component renders a thumbnail image 1`] = `
+<Link
+  to="/-UoeQOC-5iw"
+>
+  <img
+    src="https://i.ytimg.com/an_webp/-UoeQOC-5iw/mqdefault_6s.webp?du=3000&sqp=CJTGuucF&rs=AOn4CLBj3MWOwYZBOJP2DxUZ27ygB-Kb8g"
+  />
+</Link>
+`;
