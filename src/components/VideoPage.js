@@ -1,5 +1,5 @@
 import React from 'react';
-import PlayVideo from '../components/video/';
+import PlayVideo from '../containers/videos/PlayVideo';
 
 // import CommentsForVideo from '../containers/comments/CommentsForVideo';
 // import CreateComment from '../containers/comments/CreateComment';
@@ -7,7 +7,7 @@ import PlayVideo from '../components/video/';
 export default function VideoPage() {
   return (
     <>
-      <h1>Content here</h1>
+      <h1>Enjoy Your Video!</h1>
       <PlayVideo />
     </>
   );
