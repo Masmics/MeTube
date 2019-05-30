@@ -16,3 +16,4 @@ VideoThumbnail.propTypes = {
 };
 
 export default VideoThumbnail;
+

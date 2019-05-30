@@ -9,6 +9,5 @@ export const getVideoThumbnails = state => {
 };
 
 export const getVideoUrl = (state, videoId) => {
-  return `https://youtube.com/embed/${videoId}`;
+  return `https://www.youtube.com/embed/${videoId}`;
 };
-
