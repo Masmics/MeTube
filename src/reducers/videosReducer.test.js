@@ -2,7 +2,7 @@ import reducer from './videosReducer';
 import { createVideo } from '../actions/videosActions';
 
 describe('video reducer', () => {
-  it('return an empty array when initialized', () => {
+  it('returns an empty array when initialized', () => {
     const newState = reducer(undefined, {
       type:'@@INIT'
     });

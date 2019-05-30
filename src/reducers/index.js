@@ -1,10 +1,8 @@
 import { combineReducers } from 'redux';
 import videos from './videosReducer';
+import comments from './commentsReducer';
 
 export default combineReducers({
-  videos
+  videos,
+  comments
 });
-
-// import comments from './commentsReducer';
-//,
-// comments

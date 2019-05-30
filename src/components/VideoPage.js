@@ -1,17 +1,21 @@
 import React from 'react';
 import PlayVideo from '../containers/videos/PlayVideo';
+import styles from './VideoPage.css';
 
-// import CommentsForVideo from '../containers/comments/CommentsForVideo';
-// import CreateComment from '../containers/comments/CreateComment';
+import CommentsByVideo from '../containers/comments/CommentsByVideo';
+import CreateComment from '../containers/comments/CreateComment';
 
 export default function VideoPage() {
   return (
     <>
-      <h1>Enjoy Your Video!</h1>
-      <PlayVideo />
+      <div>
+        <h1 style={styles}>Enjoy Your Video!</h1>
+      </div>
+      <div>
+        <PlayVideo />
+      </div>
+      <CreateComment />
+      <CommentsByVideo />
     </>
   );
 }
-
-// <CreateComment />
-// <CommentsForVideo />

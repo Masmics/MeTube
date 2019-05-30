@@ -24,8 +24,8 @@ export default class CommentForm extends PureComponent {
     const { text } = this.state;
     return (
       <form onSubmit={this.handleSubmit}>
-        <input type="text" value={text} onChange={this.updateText}>Enter Comment: </input>
-        <button>Submit</button>
+        <input type="text" value={text} onChange={this.updateText}></input>
+        <button>Submit Comment</button>
       </form>
     );
   }
