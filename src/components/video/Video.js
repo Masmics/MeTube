@@ -19,3 +19,4 @@ Video.propTypes = {
 };
 
 export default Video;
+

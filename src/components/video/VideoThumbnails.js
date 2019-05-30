@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import VideoThumbnail from './VideoThumbnail';
 
 function VideoThumbnails({ thumbnails }) {
-  const thumbnailsList = thumbnails.map(({ id, url }) => (
+  const thumbnailList = thumbnails.map(({ id, url }) => (
     <li key={id}>
       <VideoThumbnail id={id} url={url} />
     </li>
@@ -11,7 +11,7 @@ function VideoThumbnails({ thumbnails }) {
 
   return (
     <ul>
-      {thumbnailsList}
+      {thumbnailList}
     </ul>
   );
 }

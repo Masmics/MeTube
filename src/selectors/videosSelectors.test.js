@@ -27,7 +27,7 @@ describe('videos selector', () => {
   it('gets a video by url', () => {
     const videoId = '-UoeQOC-5iw';
     const url = getVideoUrl([], videoId);
-    expect(url).toEqual('https://youtube.com/embed/-UoeQOC-5iw');
+    expect(url).toEqual('https://www.youtube.com/embed/-UoeQOC-5iw');
   });
 });
 

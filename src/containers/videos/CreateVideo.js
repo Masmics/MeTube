@@ -12,3 +12,4 @@ export default connect(
   null,
   mapDispatchToProps
 )(VideoForm);
+

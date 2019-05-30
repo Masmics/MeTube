@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`comments list component renders a list of video comments 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <Comment
+      comment="Sweet video!"
+    />
+  </li>
+  <li
+    key="1"
+  >
+    <Comment
+      comment="Loved it"
+    />
+  </li>
+</ul>
+`;
