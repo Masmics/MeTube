@@ -1,10 +1,14 @@
-h1 {
-  display: inline-box;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif
+
+
+div {
+  display: flex;
+  margin-left: 30px;
+  object-position: center;
+  align-content: center
 }
 
-div.player {
-  display: inline-block;
-  align-content: center
+h1 {
+  display: inline-flex;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
 }

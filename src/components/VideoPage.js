@@ -8,14 +8,19 @@ import CreateComment from '../containers/comments/CreateComment';
 export default function VideoPage() {
   return (
     <>
+
       <div>
         <h1 style={styles}>Enjoy Your Video!</h1>
       </div>
+
       <div>
         <PlayVideo />
       </div>
-      <CreateComment />
+      <div>
+        <CreateComment />
+      </div>
       <CommentsByVideo />
+
     </>
   );
 }
